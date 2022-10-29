@@ -1,17 +1,18 @@
-
 #title {
     text-align : center;
+    text-decoration: overline;
+    text-decoration-thickness : 2px;
+    font-size : 50px;
+    
     margin-left : auto;
     margin-right : auto;
     padding-top : 20px;
     padding-bottom : 20px;
-    text-decoration: overline;
-    text-decoration-thickness : 2px;
-    font-size : 50px;
     width : 30%;    
+
     border : 1px solid #fabf41;
-    background : linear-gradient(to right, #0c0a0b, #3a3937, #0c0a0b);
     color : #d4a32d;
+    background : linear-gradient(to right, #0c0a0b, #3a3937, #0c0a0b);
 }
 
 .barre_de_nav {
@@ -22,21 +23,28 @@
 .mainNavBar {
     display : flex;
     justify-content : space-around;
+
     width : 40%;
-    border : 1px solid black;
+    border : 1px solid #fabf41;
 }
 
 .liNav {
-    list-style-type: none;
-    padding : 5px;
     justify-content : center;
+    margin : 4px;
+    padding : 10px;
 }
 
-.nav {
+.txt {
     text-decoration: none;
-    color : black;
+    color : #d4a32d;
+    font-weight : bold;
 }
 
 .liNav:hover {
-    background : red;
+    background : #fabf41;
+}
+
+.liNav:hover .txt{
+   color : black;
+   font-weight: bold;
 }
