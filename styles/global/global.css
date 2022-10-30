@@ -38,6 +38,8 @@ header{
 }
 
 .mainNavBar{
+    background-image: url("../../ressources/img/background/nav/nav.jpg");
+    background-size: 80%;
     display : flex;
 
     justify-content: space-around;

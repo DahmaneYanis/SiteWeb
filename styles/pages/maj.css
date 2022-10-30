@@ -1,5 +1,5 @@
 body{
-    background-image : url("../../ressources/img/background/body/black/index1.jpg");
+    background-image : url("../../ressources/img/background/body/black/maj.jpg");
     background-size: 100%;
     background-attachment: fixed;
 }
@@ -17,4 +17,35 @@ body{
 
 #maj_button:hover{
     color: black;
+}
+
+/*
+------------------------
+        GLOBAL
+------------------------
+*/
+
+#contenant{
+    margin-left :auto;
+    margin-right : auto;
+    width : 80%;
+}
+#maj{
+    margin-right: auto;
+    margin-left: auto;
+    border : 2px solid #fabf41;
+    background-color: #16171b;
+    border-collapse : collapse;
+    color : #999999;
+
+}
+
+td, th {
+    border : 1px solid #999999;
+    text-align: center;
+    padding : 5px;
+}
+
+td  li {
+    text-align :start;
 }
