@@ -23,14 +23,13 @@ body{
 
 /*BARRE DE NAVIGATION*/
 #accueil_button{
-    background-color: #d4a32d;  
+    background-color: #d4a32d;
+    color : white;  
 }
 
-#accueil_button > .txt {
-    color: white;
-}
 
-#accueil_button:hover > .txt {
+
+#accueil_button:hover{
     color: black;
 }
 

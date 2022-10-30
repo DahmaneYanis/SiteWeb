@@ -1,0 +1,71 @@
+/*
+------------------------
+        GLOBAL
+------------------------
+*/
+
+body{
+    background-image : url("../../../ressources/img/background/body/black/categories.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#contenant {
+    display : flex;
+    flex-direction  : column;
+    align-items : center;
+}
+
+/*
+------------------------------------
+        BARRE DE NAVIGATION
+------------------------------------
+*/
+#categories_button{
+    background-color: #d4a32d;  
+}
+
+#categories_button {
+    color: white;
+}
+
+#categories_button:hover {
+    color: black;
+}
+
+/*
+---------------------------
+        CORPS
+---------------------------
+*/
+
+.box{
+    display : flex;
+    justify-content: space-around;
+
+
+}
+
+#principal{
+    width : 80%;
+    margin-right: 20px;
+}
+
+#secondaire{
+    width : 45%;
+}
+.categories {
+    padding : 40px;
+    width : 80%;
+    text-align : center;
+    font-size : 27px;
+    border : 1px solid #fabf41;
+    background-image : url("../../../ressources/img/background/others/marbre/black/marbre.jpg");
+    background-size: 200%; 
+    text-decoration: none;
+    color : #d4a32d;
+}
+
+.categories:hover {
+    background-image: url("../../../ressources/img/background/others/marbre/white/marbre.jpg");
+}
