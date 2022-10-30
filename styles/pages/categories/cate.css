@@ -1,0 +1,150 @@
+body{
+    background-image : url("../../../ressources/img/background/body/black/categorie.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+/*
+------------------------
+        GLOBAL
+------------------------
+*/
+
+#contenant{ 
+    display : flex;
+    flex-direction : column;
+    align-items: center;
+}
+
+.titre_partie{
+    font-size : 28px;
+}
+
+.texte{
+    font-size : 18px;
+}
+
+.box{
+    background-image : url("../../../ressources/img/background/others/marbre/white/marbre.jpg");
+    background-attachment: fixed;
+    background-size : 100%;
+
+    margin : 5px;
+}
+/*
+------------------------------------
+        BARRE DE NAVIGATION
+------------------------------------
+*/
+
+#categories_button{
+    background-color: #d4a32d;
+    color : white;  
+}
+
+
+#categories_button:hover{
+    color: black;
+}
+
+/*
+---------------------
+        TITRE
+---------------------
+*/
+
+
+#titre{
+    width : 60%;
+    background-image: url("../../../ressources/img/background/others/marbre/black/marbre.jpg");
+    border : 1px solid #fabf41;
+    text-align: center;
+
+}
+#titre_cate{
+    color : #d4a32d;
+    font-weight : bold;
+}
+
+/*
+-------------------------
+        ARTICLES
+-------------------------
+*/
+#article{
+    width : 80%;
+    padding-right : 10px;
+    padding-left: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+
+    border : 1px solid #fabf41;
+}
+#bloc_article{
+    display : flex;
+
+    flex-wrap : wrap;
+    justify-content : space-around;
+}
+
+.lienArticle{
+    border : 1px solid #fabf41;
+    text-decoration: none;
+    width : 45%;
+    margin : 10px;
+    background-image : url("../../../ressources/img/background/others/marbre/black/marbre.jpg");
+    padding: 10px;
+}
+
+.article{
+    display : flex;
+    flex-direction: column;
+
+    text-align: justify;
+
+}
+
+.titre_article{
+    color : #d4a32d;
+    margin-bottom : 5px;
+}
+
+.txt_article{
+    color : #fefefe;    
+}
+
+/*
+
+
+
+.article{
+    width : 45%;
+    padding-left : 10px;
+    padding-right : 10px;
+
+
+    display : flex;
+    flex-direction:column;
+
+    
+    background-image : url("../../../ressources/img/background/others/marbre/black/marbre.jpg");
+
+
+}
+
+.titre_article{
+    color : #d4a32d;
+    margin-bottom : 5px;
+}
+
+.txt_article{
+    color : #fefefe;
+}
+
+.article:hover .titre_article{
+    color : #fefefe;
+}
+
+*/
