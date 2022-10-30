@@ -1,0 +1,66 @@
+/*
+------------------------
+        GLOBAL
+------------------------
+*/
+
+body{
+    background-image : url("../../../ressources/img/background/body/black/galerieRecensement.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#contenant {
+    display : flex;
+    flex-direction  : column;
+    align-items : center;
+}
+
+/*
+------------------------------------
+        BARRE DE NAVIGATION
+------------------------------------
+*/
+#galeries_button{
+    background-color: #d4a32d;  
+}
+
+#galeries_button {
+    color: white;
+}
+
+#galeries_button:hover {
+    color: black;
+}
+
+/*
+---------------------------
+        CORPS
+---------------------------
+*/
+
+.lienGalerie {
+    text-decoration: none;
+    width : 80%;
+    margin : 10px;
+
+}
+
+.galerie
+{
+    border : 1px solid #fabf41;
+    padding-bottom : 100px;
+    padding-top : 100px;
+    background-image: url("../../../ressources/img/background/others/marbre/black/marbre.jpg");
+}
+
+.galerie:hover .titre_galerie{ 
+    color : white;
+    /*background-image : url("../../../ressources/img/background/others/marbre/white/marbre.jpg");*/
+}
+
+.titre_galerie{
+    color : #d4a32d;
+    text-align : center;
+    font-size : 30px;
+}
