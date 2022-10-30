@@ -115,6 +115,10 @@ body{
     color : #fefefe;    
 }
 
+.lienArticle:hover .titre_article{
+    color : #fefefe; 
+}
+
 /*
 
 
