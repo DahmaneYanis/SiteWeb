@@ -1,3 +1,7 @@
+header{
+    margin-bottom : 20px;
+}
+
 #title {
     text-align : center;
     text-decoration: overline;
@@ -19,7 +23,6 @@
 .barre_de_nav {
     display : flex;
     justify-content : center;
-    margin-bottom : 20px;
 }
 
 .mainNavBar {
@@ -49,4 +52,31 @@
 .liNav:hover .txt{
    color : black;
    font-weight: bold;
+}
+
+/*FOOTER*/
+
+footer {
+    width : 95%;
+    margin-right : auto;
+    margin-left : auto;
+    margin-top : 15px;
+    margin-bottom : 20px;
+
+    padding-top : 5px;
+    padding-bottom : 5px;
+
+    text-align : center;
+    background-color : #16171b;
+    color : #999999;
+}
+
+.special {
+    color : #d4a32d;
+
+}
+
+#petitTitre {
+    text-decoration: overline;
+    font-weight : bold;
 }
