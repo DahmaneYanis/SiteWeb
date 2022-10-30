@@ -1,11 +1,13 @@
 header{
     margin-bottom : 20px;
 }
+
 /*
 ----------------------
         TITRE
 ----------------------
 */
+
 #title {
     text-align : center;
     text-decoration: overline;
@@ -66,45 +68,13 @@ header{
 .liNav > p {
     margin : 0px;
 }
+
 /*
-.mainNavBar {
-    
-    display : flex;
-    border : 1px solid #fabf41;
-    width : 40%;
-
-    justify-content : space-around;
-}
-
-
-.liNav {
-    display : flex;
-    align-items: center;
-    margin : 4px;
-
-
-    text-decoration: none;
-    color : #d4a32d;
-    font-weight : bold;
-    border : 1px solid red;
-    
-}
-
-.navTxt{
-    display: inline;
-    border : 1px solid #fabf41;
-}
-
-.liNav:hover {
-    background : #d4a32d;
-}
-
-.liNav:hover{
-   color : black;
-   font-weight: bold;
-}
+----------------------
+        FOOTER
+----------------------
 */
-/*FOOTER*/
+
 
 footer {
     width : 95%;

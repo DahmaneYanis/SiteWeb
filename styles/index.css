@@ -4,8 +4,13 @@ body{
     background-attachment: fixed;
 }
 
+/*
+------------------------
+        GLOBAL
+------------------------
+*/
 
-#contenant{ /*Corps de la page*/
+#contenant{ 
     display : flex;
     flex-direction : column;
     align-items: center;
@@ -19,9 +24,12 @@ body{
     font-size : 18px;
 }
 
-/* Final */
+/*
+------------------------------------
+        BARRE DE NAVIGATION
+------------------------------------
+*/
 
-/*BARRE DE NAVIGATION*/
 #accueil_button{
     background-color: #d4a32d;
     color : white;  
@@ -33,7 +41,12 @@ body{
     color: black;
 }
 
-/*INTRODUCTION*/
+/*
+---------------------------
+        INTRODUCTION
+---------------------------
+*/
+
 .box{
     background-image : url("../ressources/img/background/others/marbre/marbre.jpg");
     background-attachment: fixed;
@@ -61,7 +74,12 @@ body{
     background : linear-gradient(to right, #fdfdfd, #fefefe);
 }
 
-/*CATÉGORIES*/
+/*
+---------------------------
+        CATÉGORIES
+---------------------------
+*/
+
 #cate{
     display : flex;
     flex-direction : column;
@@ -97,7 +115,11 @@ body{
     color : white;
 }
 
-/*ARTICLE*/
+/*
+-------------------------
+        ARTICLES
+-------------------------
+*/
 
 #article{
     width : 80%;

@@ -1,0 +1,20 @@
+body{
+    background-image : url("../../ressources/img/background/body/black/index1.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+/*
+------------------------------------
+        BARRE DE NAVIGATION
+------------------------------------
+*/
+
+#maj_button{
+    background-color: #d4a32d;
+    color : white;  
+}
+
+#maj_button:hover{
+    color: black;
+}
