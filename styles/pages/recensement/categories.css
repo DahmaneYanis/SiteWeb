@@ -39,33 +39,29 @@ body{
 ---------------------------
 */
 
-.box{
-    display : flex;
-    justify-content: space-around;
-
-
-}
-
-#principal{
-    width : 80%;
-    margin-right: 20px;
-}
-
-#secondaire{
-    width : 45%;
-}
-.categories {
-    padding : 40px;
-    width : 80%;
-    text-align : center;
-    font-size : 27px;
-    border : 1px solid #fabf41;
-    background-image : url("../../../ressources/img/background/others/marbre/black/marbre.jpg");
-    background-size: 200%; 
+.lienCate {
     text-decoration: none;
-    color : #d4a32d;
+    width : 80%;
+    margin : 10px;
+
 }
 
-.categories:hover {
-    background-image: url("../../../ressources/img/background/others/marbre/white/marbre.jpg");
+.categorie
+{
+    border : 1px solid #fabf41;
+    padding-bottom : 40px;
+    padding-top : 40px;
+    background-image: url("../../../ressources/img/background/others/marbre/black/marbre.jpg");
 }
+
+.categorie:hover .titre_categorie{ 
+    color : white;
+    /*background-image : url("../../../ressources/img/background/others/marbre/white/marbre.jpg");*/
+}
+
+.titre_categorie{
+    color : #d4a32d;
+    text-align : center;
+    font-size : 30px;
+}
+
